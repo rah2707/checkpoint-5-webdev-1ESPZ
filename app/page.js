@@ -11,6 +11,7 @@ export default function Home() {
   return (
   <div>
     <Component1 title={"bem vindo"} />
+    <Component4 subtitulo={"Checkpoint5"}/>
     <Component2 descricao={"Projeto de consumos de API"} />
     <Component3/>
     try {
