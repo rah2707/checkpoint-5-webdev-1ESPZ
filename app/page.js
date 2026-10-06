@@ -1,8 +1,6 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
+import Component1 from "./components/Component1";
 export default function Home() {
   return (
-    
+    <Component1 title={"bem vindo"} />
   );
 }
