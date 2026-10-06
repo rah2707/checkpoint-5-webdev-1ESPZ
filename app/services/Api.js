@@ -3,9 +3,9 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 
 export default function Page() {
-    const [data, setData] = useState([]);
+    const [data, setData] = useState([]); {/*USESTATE PARA API*/ }
 
-    useEffect(() => {
+    useEffect(() => { {/*USEEFFECT PARA API*/}
         async function carregar() {
             const res = await axios.get(
                 "https://valorant-api.com/v1/agents?language=pt-BR"
@@ -17,4 +17,5 @@ export default function Page() {
 
     return <pre>{JSON.stringify(data, null, 2)}</pre>;
 }
+
 
