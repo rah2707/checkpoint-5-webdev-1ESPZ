@@ -15,7 +15,31 @@ export default function Page() {
         carregar();
     }, []);
 
+
+    Page.interceptors.request.use(
+        (a) => {
+            console.log('Enviando requisição:', a.res);
+            return a;
+        },
+        (error) => {
+            return Promise.reject(error);
+        }
+    );
+
+    p.interceptors.response.use(
+        (response) => {
+            console.log('Resposta recebida:', response.status);
+            return response;
+        },
+        (error) => {
+            console.error('Erro na requisição:', error.message);
+            return Promise.reject(error);
+        }
+    );
+
     return <pre>{JSON.stringify(data, null, 2)}</pre>;
 }
+
+
 
 
