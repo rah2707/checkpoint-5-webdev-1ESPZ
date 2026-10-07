@@ -2,11 +2,11 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 export default function Lista () {
-
-    const [lista, setLista] = useState([])
+    { /*USESTATE PARA CONSOLIDAÇÃO DOS DADOS DA API*/ }
+    const [lista, setLista] = useState([])  
 
     useEffect(() => {
-        { /*USEEFFECT PARA API*/ }
+        { /*USEEFFECT PARA CAPTURA DOS DADOS DA API, AO RENDERIZAR A PAGINA*/ }
         async function carregar() {
             const res = await axios.get(
                 "https://valorant-api.com/v1/agents?language=pt-BR"

@@ -7,6 +7,7 @@ import Component4 from "./components/Component4";
 import Component5 from "./components/Component5";
 import Component6 from "./components/Component6";
 import Lista from "./components/Lista";
+import TratErro from "./components/TratErro";
 
 
 
@@ -21,6 +22,7 @@ export default function Home() {
       <Component5 />
       <Component3 />
       <Lista />
+      <TratErro />
       <Component3 />
       <Component6 />
     </div>
