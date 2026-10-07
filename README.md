@@ -1,6 +1,7 @@
 https://checkpoint-5-webdev-1-espz-rho.vercel.app/ - LINK DO DEPLOY
 
-Projeto que consolida e printa os dados da api em forma de lista
+Projeto que consolida e printa os dados da api em forma de lista.
+No projeto é usado usesTate e Useeffect, é feito o tratamento de erro, e possui agradecimento...
 
 
 COMPONENTES: 
