@@ -1,0 +1,151 @@
+{
+  "turma": "1ESPZ",
+  "project": "rah2707-checkpoint-5-webdev-1ESPZ",
+  "hasGit": true,
+  "nextRoots": [
+    {
+      "pkgPath": "package.json",
+      "dir": "/Volumes/externo/FIAP/corretor-avaliacoes/turmas/2026/checkpoint-5/1ESPZ/rah2707-checkpoint-5-webdev-1ESPZ",
+      "next": "16.4.0",
+      "axios": "^1.20.0",
+      "react": "19.3.0",
+      "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "eslint"
+      }
+    }
+  ],
+  "components": [
+    {
+      "name": "Component1",
+      "file": "app/components/Component1.js",
+      "inComponents": true
+    },
+    {
+      "name": "Component2",
+      "file": "app/components/Component2.js",
+      "inComponents": true
+    },
+    {
+      "name": "Component3",
+      "file": "app/components/Component3.js",
+      "inComponents": true
+    },
+    {
+      "name": "Component4",
+      "file": "app/components/Component4.js",
+      "inComponents": true
+    },
+    {
+      "name": "Component5",
+      "file": "app/components/Component5.js",
+      "inComponents": true
+    },
+    {
+      "name": "Component6",
+      "file": "app/components/Component6.js",
+      "inComponents": true
+    },
+    {
+      "name": "Lista",
+      "file": "app/components/Lista.js",
+      "inComponents": true
+    },
+    {
+      "name": "TratErro",
+      "file": "app/components/TratErro.js",
+      "inComponents": true
+    },
+    {
+      "name": "Api",
+      "file": "app/services/Api.js",
+      "inComponents": false
+    }
+  ],
+  "componentCount": 9,
+  "componentsInComponentsFolder": 8,
+  "axiosHits": [
+    "app/components/Lista.js:3: import axios from \"axios\";",
+    "app/components/Lista.js:11: const res = await axios.get(",
+    "app/services/Api.js:2: import axios from \"axios\";",
+    "package-lock.json:11: \"axios\": \"^1.20.0\",",
+    "package-lock.json:2354: \"node_modules/axios\": {",
+    "package-lock.json:2356: \"resolved\": \"https://registry.npmjs.org/axios/-/axios-1.20.0.tgz\",",
+    "package.json:12: \"axios\": \"^1.20.0\","
+  ],
+  "fetchHits": [],
+  "useStateHits": [
+    "app/components/Lista.js:2: import { useEffect, useState } from \"react\";",
+    "app/components/Lista.js:6: const [lista, setLista] = useState([])",
+    "app/page.js:2: import { useEffect, useState } from \"react\";",
+    "app/services/Api.js:3: import { useEffect, useState } from \"react\";",
+    "app/services/Api.js:6: const [data, setData] = useState([]); {/*USESTATE PARA API*/}"
+  ],
+  "useEffectHits": [
+    "app/components/Lista.js:2: import { useEffect, useState } from \"react\";",
+    "app/components/Lista.js:8: useEffect(() => {",
+    "app/page.js:2: import { useEffect, useState } from \"react\";",
+    "app/services/Api.js:3: import { useEffect, useState } from \"react\";"
+  ],
+  "useRouterHits": [],
+  "linkHits": [],
+  "useClientHits": [
+    "app/components/Lista.js:1: \"use client\"",
+    "app/page.js:1: \"use client\"",
+    "app/services/Api.js:1: \"use client\";"
+  ],
+  "useMemoHits": [],
+  "useCallbackHits": [],
+  "useRefHits": [],
+  "localStorageHits": [],
+  "loadingHints": [],
+  "errorHints": [
+    "README.md:4: No projeto é usado usesTate e Useeffect, é feito o tratamento de erro, e possui agradecimento...",
+    "README.md:15: TratErro = Componente para tratar o erro da chamada da API",
+    "app/components/TratErro.js:4: { /*Try e Catch para tratamento de erro da chamada de API*/ }",
+    "app/components/TratErro.js:6: } catch (error) {",
+    "app/components/TratErro.js:7: console.log(\"Erro no carregamento da API...\")",
+    "package-lock.json:3329: \"zod-validation-error\": \"^3.5.0 || ^4.0.0\""
+  ],
+  "searchHints": [
+    "app/page.module.css:128: filter: invert();",
+    "package-lock.json:2135: \"node_modules/aria-query\": {",
+    "package-lock.json:2137: \"resolved\": \"https://registry.npmjs.org/aria-query/-/aria-query-5.3.2.tgz\",",
+    "package-lock.json:2366: \"node_modules/axobject-query\": {",
+    "package-lock.json:2368: \"resolved\": \"https://registry.npmjs.org/axobject-query/-/axobject-query-4.1.0.tgz\",",
+    "package-lock.json:3262: \"aria-query\": \"^5.3.2\",",
+    "package-lock.json:3267: \"axobject-query\": \"^4.1.0\","
+  ],
+  "dynamicRoutes": [
+    "app/details/[id]/page.js"
+  ],
+  "honeypots": [],
+  "reduxVueClass": [],
+  "readmes": [
+    {
+      "path": "README.md",
+      "preview": "https://checkpoint-5-webdev-1-espz-rho.vercel.app/ - LINK DO DEPLOY\n\nProjeto que consolida e printa os dados da api em forma de lista.\nNo projeto é usado usesTate e Useeffect, é feito o tratamento de erro, e possui agradecimento...\n\n\nCOMPONENTES: \nComponent1 = Título\nComponent2 = Descrição\nComponent3 = Espaçamento entre linhas\nComponent4 = Subtítulo\nComponent5 = Paragrafo para lista da API\nComponent6 = Agradecimento\nLista = Lista dos itens da API\nTratErro = Componente para tratar o erro da chamada da API\n\n"
+    }
+  ],
+  "participantes": [
+    {
+      "path": "participantes.md",
+      "preview": "Luiz Felipe Izumi - RM572328\nRaissa Capasso - RM572166\nRafael Boneti - RM571628"
+    }
+  ],
+  "vercelLinks": [
+    "https://checkpoint-5-webdev-1-espz-rho.vercel.app/"
+  ],
+  "apiHints": [
+    "Valorant"
+  ],
+  "git": {
+    "commitCount": 12,
+    "branch": "main",
+    "remote": "origin\thttps://github.com/rah2707/checkpoint-5-webdev-1ESPZ (fetch)\norigin\thttps://github.com/rah2707/checkpoint-5-webdev-1ESPZ (push)",
+    "shortlog": "12\tLaboratório FIAP <labsfiap@fiap.com.br>",
+    "logOneline": "99f6a1f commit12\n5c27e0a commit11\na0f2477 commit10\nc467e2e commit9\nae78492 commit8\n0e7436c commit7\nb133087 commit6\n5f30a00 commit5\n52a0c92 commit4\n3443886  chamada da api - commit3\nd6cb098 commit2\nf931de9 feat:commit1"
+  }
+}

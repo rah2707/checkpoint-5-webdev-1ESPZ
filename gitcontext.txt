@@ -1,0 +1,45 @@
+# CONTEXTO GIT - 1ESPZ/rah2707-checkpoint-5-webdev-1ESPZ
+# Path: /Volumes/externo/FIAP/corretor-avaliacoes/turmas/2026/checkpoint-5/1ESPZ/rah2707-checkpoint-5-webdev-1ESPZ
+
+## git remote -v
+origin	https://github.com/rah2707/checkpoint-5-webdev-1ESPZ (fetch)
+origin	https://github.com/rah2707/checkpoint-5-webdev-1ESPZ (push)
+
+## git branch -a
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+## git log --oneline -50 (default branch)
+99f6a1f commit12
+5c27e0a commit11
+a0f2477 commit10
+c467e2e commit9
+ae78492 commit8
+0e7436c commit7
+b133087 commit6
+5f30a00 commit5
+52a0c92 commit4
+3443886  chamada da api - commit3
+d6cb098 commit2
+f931de9 feat:commit1
+
+## git shortlog -sn -e (HEAD)
+12	Laboratório FIAP <labsfiap@fiap.com.br>
+
+## git log --oneline --graph --all -20
+* 99f6a1f commit12
+* 5c27e0a commit11
+* a0f2477 commit10
+* c467e2e commit9
+* ae78492 commit8
+* 0e7436c commit7
+* b133087 commit6
+* 5f30a00 commit5
+* 52a0c92 commit4
+* 3443886  chamada da api - commit3
+* d6cb098 commit2
+* f931de9 feat:commit1
+
+## contagem de commits HEAD
+12
